@@ -2,7 +2,7 @@
 
 #define BUTTON 9
 
-volatile int16_t counter = 0;
+volatile uint32_t counter = 0;
 volatile bool pressed = false;
 
 void IRAM_ATTR buttonISR() {
